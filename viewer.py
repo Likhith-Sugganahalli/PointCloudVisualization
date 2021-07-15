@@ -1,8 +1,15 @@
 import open3d as o3d
-import matplotlib.pyplot as plt
+import os
+import json
 
+with open("config.json") as file:
+	config = json.load(file)
+
+dataset_path = config['path_dataset']
+ply_path = os.path.join(dataset_path,'scene/integrated.ply')
 
 print("Load a ply point cloud, print it, and render it")
-pcd = o3d.io.read_point_cloud("/home/whoknows/Documents/Visualizer/pipeline/living_room_traj2_frei_png/scene/integrated.ply")
+print(ply_path)
+pcd = o3d.io.read_point_cloud(ply_path)
 o3d.visualization.draw_geometries([pcd])
 
