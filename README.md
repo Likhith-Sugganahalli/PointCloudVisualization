@@ -2,11 +2,11 @@
 
 Links:
 https://github.com/intel-isl/Open3D
+
 https://storage.googleapis.com/open3d-releases-master/python-wheels/open3d-0.13.0-cp38-cp38-manylinux_2_27_x86_64.whl
 
 
 https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html
-
 For testing, I specifically used this subset: http://www.doc.ic.ac.uk/~ahanda/living_room_traj2_frei_png.tar.gz
 
 As the python bindings for open3d are only wrappers around a c++ backend, for initial varification of method, i used python.
@@ -23,7 +23,7 @@ Open3D (installation instructions included)
 Installing open3d for python:
 
 Because i faced memory leaks while using the pip version, it is recommended that open3d 13 is installed using the wheel provided,
-download the wheel into your working directory and using the command:
+download the wheel(download the wheel by right-click>save link as) into your working directory and using the command:
 
 (Inside a venv)
 python3 -m pip install <the wheel file>
