@@ -3,7 +3,7 @@
 Links:
 https://github.com/intel-isl/Open3D
 
-https://storage.googleapis.com/open3d-releases-master/python-wheels/open3d-0.13.0-cp38-cp38-manylinux_2_27_x86_64.whl
+http://www.open3d.org/docs/latest/getting_started.html
 
 
 https://www.doc.ic.ac.uk/~ahanda/VaFRIC/iclnuim.html
@@ -22,11 +22,10 @@ Open3D (installation instructions included)
 
 Installing open3d for python:
 
-Because i faced memory leaks while using the pip version, it is recommended that open3d 13 is installed using the wheel provided,
-download the wheel(download the wheel by right-click>save link as) into your working directory and using the command:
+Because i faced memory leaks while using the pip version, it is recommended that open3d-13 is installed using:
 
 (Inside a venv)
-python3 -m pip install <the wheel file>
+python3 -m pip install open3d
 
 
 Setup the dataset:
