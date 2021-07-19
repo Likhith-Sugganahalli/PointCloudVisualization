@@ -1,6 +1,14 @@
 # PointCloudVisualization
 
+
+<p> I was unable to setup Open3D for c++, although the python implementation is a direct wrapper over the c++ backend.
+	i have included the issue i posted on Open3D regarding building from source.
+	<p>
+
 Links:
+		
+https://github.com/intel-isl/Open3D/issues/3744
+
 https://github.com/intel-isl/Open3D
 
 http://www.open3d.org/docs/latest/getting_started.html
