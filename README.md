@@ -53,7 +53,7 @@ cd into python/reconstruction_system and run:
 After the process completes, run the viewer.py to obtain a point cloud
 
 
-![image1](output/Screenshot from 2021-07-15 18-34-30.png)
+![image1](output/1.png)
 
-![image2](output/Screenshot from 2021-07-15 18-34-36.png)
+![image2](output/2.png)
 
